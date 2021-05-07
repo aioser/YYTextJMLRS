@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'git@github.com:aioser/YYTextJMLRS.git', :tag => s.version.to_s }
   
   s.requires_arc = true
-  s.source_files = 'YYText/**/*.{h,m}'
-  s.public_header_files = 'YYText/**/*.{h}'
+  s.source_files = 'YYTextJMLRS/**/*.{h,m}'
+  s.public_header_files = 'YYTextJMLRS/**/*.{h}'
   
   s.frameworks = 'UIKit', 'CoreFoundation','CoreText', 'QuartzCore', 'Accelerate', 'MobileCoreServices'
 end
