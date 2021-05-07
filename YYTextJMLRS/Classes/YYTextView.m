@@ -1292,7 +1292,8 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
             [UIPasteboard generalPasteboard].yy_AttributedString = text;
         }
     } else {
-        NSString *string = [_innerText yy_plainTextForRange:_selectedTextRange.asRange];
+        /// MARK:// 读取原始显示字段. 20210507 v:1.0.7
+        NSString *string = _innerText.string;
         if (string.length) {
             [UIPasteboard generalPasteboard].string = string;
         }
@@ -3032,8 +3033,8 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
 
 - (void)_define:(id)sender {
     [self _hideMenu];
-    
-    NSString *string = [_innerText yy_plainTextForRange:_selectedTextRange.asRange];
+    /// MARK:// 读取原始显示字段. 20210507 v:1.0.7
+    NSString *string = _innerText.string;
     if (string.length == 0) return;
     BOOL resign = [self resignFirstResponder];
     if (!resign) return;
