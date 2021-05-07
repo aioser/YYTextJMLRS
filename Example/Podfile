@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YYTextJMLRS_Example' do
+  pod 'YYTextJMLRS', :path => '../'
+
+  target 'YYTextJMLRS_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
