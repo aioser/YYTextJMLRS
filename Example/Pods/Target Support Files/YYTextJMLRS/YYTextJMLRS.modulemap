@@ -1,0 +1,6 @@
+framework module YYTextJMLRS {
+  umbrella header "YYTextJMLRS-umbrella.h"
+
+  export *
+  module * { export * }
+}

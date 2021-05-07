@@ -1,0 +1,6 @@
+framework module Pods_YYTextJMLRS_Example {
+  umbrella header "Pods-YYTextJMLRS_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

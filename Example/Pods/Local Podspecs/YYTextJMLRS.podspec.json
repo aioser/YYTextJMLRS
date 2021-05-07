@@ -1,0 +1,22 @@
+{
+  "name": "YYTextJMLRS",
+  "version": "0.1.0",
+  "summary": "A short description of YYTextJMLRS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/刘sama/YYTextJMLRS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "刘sama": "junchen.liu@jiamiantech.com"
+  },
+  "source": {
+    "git": "https://github.com/刘sama/YYTextJMLRS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YYTextJMLRS/Classes/**/*"
+}
