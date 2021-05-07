@@ -1048,17 +1048,9 @@ debugOptions.CGGlyphBorderColor = [UIColor colorWithRed:1.000 green:0.524 blue:0
 
 ### CocoaPods
 
-1. 在 Podfile 中添加 `pod 'YYText'`。
+1. 在 Podfile 中添加 `pod 'YYTextJMLRS'`。
 2. 执行 `pod install` 或 `pod update`。
 3. 导入 \<YYText/YYText.h\>。
-
-
-### Carthage
-
-1. 在 Cartfile 中添加 `github "ibireme/YYText"`。
-2. 执行 `carthage update --platform ios` 并将生成的 framework 添加到你的工程。
-3. 导入 \<YYText/YYText.h\>。
-
 
 ### 手动安装
 
