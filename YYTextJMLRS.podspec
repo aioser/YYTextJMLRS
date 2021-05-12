@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYTextJMLRS'
   s.summary      = 'Powerful text framework for iOS to display and edit rich text. fork from ibireme'
-  s.version      = '1.0.7'
+  s.version      = '1.0.7.1'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'ibireme' => 'ibireme@gmail.com', 'aioser' => 'junchen.liu@jiamiantech.com' }
   s.social_media_url = 'http://blog.ibireme.com'

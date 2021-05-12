@@ -1293,7 +1293,7 @@ typedef NS_ENUM(NSUInteger, YYTextMoveDirection) {
         }
     } else {
         /// MARK:// 读取原始显示字段. 20210507 v:1.0.7
-        NSString *string = _innerText.string;
+        NSString *string = [_innerText attributedSubstringFromRange:_selectedTextRange.asRange].string;
         if (string.length) {
             [UIPasteboard generalPasteboard].string = string;
         }
